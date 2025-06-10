@@ -1,0 +1,41 @@
+
+U:\>c:
+
+C:\Users\25170043\Desktop\projeto coder>git clone https://github.com/ben-n4sc/Projeto-Coder
+Cloning into 'Projeto-Coder'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 0), reused 7 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (7/7), 4.43 KiB | 756.00 KiB/s, done.
+
+C:\Users\25170043\Desktop\projeto coder>
+
+
+Trabalhando com o repositório clonado
+Depois de clonado, você pode:
+
+Fazer alterações: Edite os arquivos dentro da pasta do repositório.
+Adicionar alterações ao "stage": git add . (para adicionar todos os arquivos alterados)
+Fazer commit das alterações: git commit -m "Minha mensagem de commit"
+Enviar as alterações para o GitHub: git push origin nome-da-branch (geralmente main ou master)
+Puxar as últimas alterações do GitHub: git pull origin nome-da-branch (se outras pessoas estiverem trabalhando no mesmo repositório)
+Então, para resumir: para trazer um repositório do GitHub para uma pasta no seu computador, você usa o comando git clone. A partir daí, você pode "empurrar" (push) suas alterações do seu computador para o GitHub.
+
+# 1. Navegue até o diretório do seu projeto
+cd /caminho/do/seu/projeto
+
+# 2. Inicialize o Git (se ainda não fez)
+git init
+
+# 3. Adicione todos os arquivos
+git add .
+
+# 4. Faça o commit
+git commit -m "Primeiro commit do meu projeto"
+
+# 5. Adicione o repositório remoto (copie do GitHub)
+git remote add origin https://github.com/SeuUsuario/nome-do-repositorio.git
+
+# 6. Faça o push para o GitHub
+git push -u origin master # ou main, dependendo do seu GitHub
