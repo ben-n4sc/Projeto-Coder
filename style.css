@@ -323,7 +323,7 @@
   .depoimentos-section h2 {
     color: #fff;
     font-size: 2rem;
-    margin-bottom: 22px;
+    margin-bottom: 52px;
     font-weight: 900;
   }
   .depoimentos-lista {
@@ -340,6 +340,7 @@
     box-shadow: 0 2px 18px #004aad1b;
     max-width: 310px;
     font-size: 1.07rem;
+    text-align:center;
   }
   .depoimento-card span {
     display: block;
